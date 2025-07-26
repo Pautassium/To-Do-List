@@ -1,0 +1,20 @@
+# 1. Use Node for development
+FROM node:18-alpine
+
+# 2. Set working directory
+WORKDIR /app
+
+# 3. Install dependencies
+COPY package*.json ./
+RUN npm install
+
+# 4. Copy all files
+COPY . .
+
+RUN npm install react-router-dom
+
+# 5. Expose React dev server port
+EXPOSE 3000
+
+# 6. Start the dev server with hot reload
+CMD ["npm", "start"]

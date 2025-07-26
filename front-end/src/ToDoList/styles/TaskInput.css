@@ -1,0 +1,21 @@
+.task-input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  width: 70%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.todo-add-button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
