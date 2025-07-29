@@ -1,49 +1,39 @@
-.todo-container {
-  max-width: 500px;
-  margin: 3rem auto;
-  padding: 2rem;
-  border-radius: 12px;
-  background-color: #f9f9f9;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
-}
-
-.todo-header {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
 .task-list {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
-  margin-top: 1.5rem;
 }
 
 .task-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 8px 0;
-  padding: 8px;
-  background-color: #ffffff;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-}
-
-.task-buttons button {
-  margin-left: 5px;
-  cursor: pointer;
-  font-size: 14px;
-}
-
-.clear-button {
-  margin-top: 1.5rem;
-  padding: 8px 16px;
-  font-size: 16px;
-  background-color: #ff6666;
+  background-color: #2b2b2b;
+  border: 1px solid #444;
+  border-radius: 8px;
+  margin: 1rem 0;
+  padding: 1rem;
   color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+}
+
+.task-content {
+  margin-bottom: 0.5rem;
+}
+
+.task-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.task-description {
+  font-size: 0.95rem;
+  margin: 0.25rem 0;
+  color: #ccc;
+}
+
+.task-due {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
 }
